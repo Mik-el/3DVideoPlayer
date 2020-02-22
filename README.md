@@ -57,9 +57,9 @@ This app is the cornerstone for future developments of:
 # App Download
 The download of this app is free. ([link][apkv2] - use slower download) but if you'll like to help me:
 <a href="https://paypal.me/donationMikel">
- <img src="images/a.jpg"
+ <img src="images/donate_cicon.png"
       alt="closeup"
-      width="500"/></a>
+      width="250"/></a>
 
 # My Social pages
 

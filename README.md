@@ -39,9 +39,9 @@ This app needs 3d libraries to work. Unfortunately some custom Roms don't includ
 Source code of the official app in stock ROMs.
 
 # Advantage of this fork:
-* I converted the source code from an old Eclipse porject to a new Android Studio project.
-* Optimized the code with Proguard
-* Added 4 new languages: Italian, Spanish, Portuguese, German.
+* Converted the source code from an old Eclipse project to a new Android Studio project. (Mik-el)
+* Optimized the code with Proguard (Mik-el)
+* Added 4 new languages: Italian, Spanish, Portuguese, German. (View Credits)
 * Improved original English text 
 
 # Relevance:
@@ -76,7 +76,7 @@ The download of this app is free. ([link][apkv2] - use slower download) but if y
 # Credits
 * [Mik-el][xda] : developer, italian translator
 * [YuriRM][yuri]: coordinator, portuguese translator
-* [io2345][io2345]: tester
+* [io2345][io2345]: tester, german translator
 * [Kano3D][kano3d]: spanish translator
 
 

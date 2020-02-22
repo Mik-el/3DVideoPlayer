@@ -40,6 +40,7 @@ Source code of the official app in stock ROMs.
 
 # Advantage of this fork:
 * I converted the source code from an old Eclipse porject to a new Android Studio project.
+* Optimized the code with Proguard
 * Added 4 new languages: Italian, Spanish, Portuguese, German.
 * Improved original English text 
 
@@ -54,7 +55,7 @@ This app is the cornerstone for future developments of:
 
 
 # App Download
-The download of this app is free. ([link][apkv1] - use slower download) but if you'll like to help me:
+The download of this app is free. ([link][apkv2] - use slower download) but if you'll like to help me:
 <a href="https://paypal.me/donationMikel">
  <img src="images/a.jpg"
       alt="closeup"
@@ -98,4 +99,5 @@ The download of this app is free. ([link][apkv1] - use slower download) but if y
    [kano3d]: <http://www.tridimensional.info>
    [patent]: <http://bit.ly/2LvEd4r>
    [apkv1]: <http://bit.ly/Mk3d001>
+   [apkv2]: <http://www.filefactory.com/file/257xh8gpewhz/Mik-el%203DVideoPlayer%20v2.apk>
    [cam]: <https://cam.tv/mik_el_tech>

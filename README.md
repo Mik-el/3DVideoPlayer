@@ -1,13 +1,18 @@
 # 3DVideoPlayer (Mik-el)
+<img src="images/a.jpeg"
+      alt="closeup"
+      width="500"/>
 
-[![N|Solid](https://i.imgur.com/OpVOJ4e.jpg)]()
 
 
 This is a 3D video player for Android that allows to watch videos in 3d without using glasses.
 It uses Holographic 3D and eye-tracking technologies.
 ([patent][patent])
 
-[![N|Solid](https://media.giphy.com/media/jtztWGNWSKl5DTJnSv/giphy.gif)]()
+
+<img src="images/b..gif"
+      alt="closeup"
+      width="500"/>
 
 # Device supported:
  - Brand: EStar
@@ -18,7 +23,7 @@ It uses Holographic 3D and eye-tracking technologies.
 
 
 # Download 3D libraries:
-Some custom Roms don't include them, they're necessary for this app to work. I extracted them from the last stock rom and made a guide to import them correctly, you can download them [here][3dlibs] 
+This app needs 3d libraries to work. Unfortunately some custom Roms don't include them, but I extracted them from the last stock rom and made a guide to import them correctly in any custom rom, you can download the libraries [here][3dlibs] 
 
 
 
@@ -34,7 +39,9 @@ Some custom Roms don't include them, they're necessary for this app to work. I e
 Source code of the official app in stock ROMs.
 
 # Advantage of this fork:
-The source code of the 3d stock player has been converted from the old eclipse project to a new Android studio project by me, Mik-el.
+* I converted the source code from an old Eclipse porject to a new Android Studio project.
+* Added 4 new languages: Italian, Spanish, Portuguese, German.
+* Improved original English text 
 
 # Relevance:
 This app is the cornerstone for future developments of:
@@ -48,7 +55,10 @@ This app is the cornerstone for future developments of:
 
 # App Download
 The download of this app is free. ([link][apkv1] - use slower download) but if you'll like to help me:
-<a href="https://paypal.me/donationMikel"><img src="https://www.paypalobjects.com/webstatic/mktg/merchant_portal/button/donate.en.png" align="center" width="160" ></a>
+<a href="https://paypal.me/donationMikel">
+ <img src="images/a.jpg"
+      alt="closeup"
+      width="500"/></a>
 
 # My Social pages
 
@@ -63,9 +73,10 @@ The download of this app is free. ([link][apkv1] - use slower download) but if y
 | Youtube | [link][yt] |
 
 # Credits
-* [Mik-el][xda] : developer
-* [YuriRM][yuri]: coordinator
+* [Mik-el][xda] : developer, italian translator
+* [YuriRM][yuri]: coordinator, portuguese translator
 * [io2345][io2345]: tester
+* [Kano3D][kano3d]: spanish translator
 
 
 
@@ -84,6 +95,7 @@ The download of this app is free. ([link][apkv1] - use slower download) but if y
    [s3Ddevices]: <https://forum.xda-developers.com/showpost.php?p=79098051&postcount=1399>
    [yuri]: <https://forum.xda-developers.com/member.php?u=7147494>
    [io2345]: <https://forum.xda-developers.com/member.php?u=6026343>
+   [kano3d]: <http://www.tridimensional.info>
    [patent]: <http://bit.ly/2LvEd4r>
    [apkv1]: <http://bit.ly/Mk3d001>
    [cam]: <https://cam.tv/mik_el_tech>

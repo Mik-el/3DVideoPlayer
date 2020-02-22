@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3D播放器</string>
+    <string name="local">本地</string>
+    <string name="online">在線</string>
+    <string name="yunlifang">云立方</string>
+    <string name="all">全部視頻</string>
+    <string name="history">歷史記錄</string>
+    <string name="folder">文件夾</string>
+    <string name="today">"今天"</string>
+    <string name="yesterday">"昨天"</string>
+    <string name="the_day_before_yesterday">"更早"</string>
+    <string name="history_time">"觀看至%1$s"</string>
+    <string name="duration_h_0">"%1$02d分%2$02d秒"</string>
+    <string name="duration_hn_0">"%1$d小時%2$02d分%3$02d秒"</string>
+
+    <!-- 设置 -->
+    <string name="play_continue">"%1$s連續播放"</string>
+    <string name="play_remember">"%1$s記憶播放"</string>
+    <string name="subtitle">"%1$s顯示字幕"</string>
+    <string name="clear_history">"清除播放記錄"</string>
+    <string name="refresh">"刷新列表"</string>
+    <string name="close">"關閉"</string>
+    <string name="open">"打開"</string>
+    <string name="no_video">"無視頻"</string>
+    <string name="more_video">"查看更多"</string>
+    <string name="chose_type">"設置視頻格式"</string>
+    <string name="type_2d">"2D視頻"</string>
+    <string name="type_3d_lr">"左右視頻"</string>
+    <string name="type_3d_ud">"上下視頻"</string>
+    <string name="convergence_none">"全寬"</string>
+    <string name="convergence_half_width">"半寬"</string>
+    
+
+    <!-- 详细信息 -->
+    <string name="media_detail">"詳細信息"</string>
+    <string name="detail_title">"標題 : %1$s"</string>
+    <string name="detail_date_taken">"時間 : %1$s"</string>
+    <string name="detail_path">"路徑 : %1$s"</string>
+    <string name="detail_filesize">"文件大小 : %1$s"</string>
+    <string name="detail_duration">"時長 : %1$s"</string>
+    <string name="detail_is3d">"是否3D： %1$s"</string>
+    <string name="yes">"是"</string>
+    <string name="not">"否"</string>
+    <string name="detail_file_count">"%1$s個視頻"</string>
+    <string name="only_one_media">"當前列表只有一個視頻"</string>
+    <string name="lookfor_more_resource">"去云立方查看更多資源！"</string>
+    <string name="clear_success">"清除成功！"</string>
+    <string name="refreshing">"正在後台執行刷新,請耐心等待..."</string>
+    
+    <string name="no_connectivity" msgid="7164037617297293668">"網路發生問題。"</string>
+    <string name="please_enter_complete_information">請輸入完整信息</string>
+    <string name="login_success">登錄成功</string>
+    
+    
+    <string name="login">登錄</string>
+    <string name="ulifang_login">雲立方帳號登錄</string>
+    <string name="register">注冊</string>
+    <string name="forget_password">忘記密碼</string>
+    <string name="account">帳號</string>
+    <string name="enter_username">請輸入帳號</string>
+    <string name="enter_password">請輸入密碼</string>
+    <string name="enter_url">請輸入播放鏈接</string>
+    <string name="bad_url">請輸入合法的鏈接</string>
+    <string name="url_tips">(鏈接地址格式，如http://****.mkv)</string>
+    <string name="play_url">播放鏈接</string>
+    <string name="play">播放</string>
+
+    <!-- 继续播放对话框 -->
+    <string name="resume_playing_title" msgid="8996677350649355013">"繼續播放視頻"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"从 %s 開始播放視頻？"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"繼續播放"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"重新開始"</string>
+    <string name="prompt">"提示"</string>
+    <string name="delete" msgid="2839695998251824487">"刪除"</string>
+    <string name="delete_file">"刪除文件 : %1$s？"</string>
+    <string name="delete_folder">"刪除文件夾: %1$s？"</string>
+    <string name="delete_fail">"無法完成操作，無權限操作4.4及以上系統外置SD卡"</string>
+    <string name="loading" msgid="7038208555304563571">"正在載入..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"無法加載"</string>
+    <string name="need_camera_permission">尊敬的用戶，本應用需要開啓前置攝像頭和建立數據連接。\n\t\t\t1、開啓前置攝像頭以進行全息顯示，攝像頭開啓過程中，只會進行人眼追蹤，不會進行拍照。\n\t\t\t2、建立數據連接會産生數據流量數據流量費用由網絡運營商收取詳情咨詢相關運營商。</string>
+    <string name="do_not_show">下次不再顯示</string>
+    <string name="screen_capture_success">"截圖保存成功，路徑: %1$s"</string>
+    <string name="is_locked">屏幕已鎖定，點擊解鎖圖標可解鎖</string>
+
+</resources>

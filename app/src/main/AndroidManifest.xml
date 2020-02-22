@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.takee.video"
+    android:versionCode="20"
+    android:versionName="2.0.3" >
+
+    <uses-sdk android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.estar.video.PlayerApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.estar.video.VideoFileListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/main_activity_style">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.estar.video.SettingsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="设置" >
+        </activity>
+        <activity
+            android:name="com.estar.ulifang.LogginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/login" >
+        </activity>
+        <activity
+            android:name="com.estar.video.HarderPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <!-- 可以播放网络视频，但是百度网盘不支持、无法验证3D，暂时去掉 -->
+
+                <data android:scheme="rtsp" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="application/sdp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.estar.video.data.EstarVideoContentProvider"
+            android:authorities="com.estar.video.contentProvider"
+            android:exported="false" >
+        </provider>
+        
+        <service 
+            android:name="com.estar.update2.DownAPKServiceNotify">
+            <intent-filter>
+                <action android:name="ShowObject_UpdateApk"/>
+            </intent-filter>
+        </service>
+        
+        <service android:name="com.estar.video.CameraManagerService" >
+        </service>
+    </application>
+
+</manifest>

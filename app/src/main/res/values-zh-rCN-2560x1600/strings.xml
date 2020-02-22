@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">视频</string>
+    <string name="local">本地</string>
+    <string name="online">在线</string>
+    <string name="yunlifang">云立方</string>
+    <string name="all">全部视频</string>
+    <string name="history">历史记录</string>
+    <string name="folder">文件夹</string>
+    
+    
+    <string name="today">"今天"</string>
+    <string name="yesterday">"昨天"</string>
+    <string name="the_day_before_yesterday">"更早"</string>
+    <string name="history_time">"观看至%1$s"</string>
+    <string name="duration_h_0">"%1$02d分%2$02d秒"</string>
+    <string name="duration_hn_0">"%1$d小时%2$02d分%3$02d秒"</string>
+    
+    <!-- 设置 -->
+    <string name="play_continue">"%1$s连续播放"</string>
+    <string name="play_remember">"%1$s记忆播放"</string>
+    <string name="subtitle">"%1$s显示字幕"</string>
+    <string name="clear_history">"清除播放记录"</string>
+    <string name="refresh">"刷新列表"</string>
+    <string name="close">"关闭"</string>
+    <string name="open">"打开"</string>
+    
+    <string name="no_video">"无视频"</string>
+    <string name="more_video">"查看更多"</string>
+    <string name="chose_type">"设置视频格式"</string>
+    <string name="type_2d">"2D视频"</string>
+    <string name="type_3d_lr">"左右视频"</string>
+    <string name="type_3d_ud">"上下视频"</string>
+    <string name="convergence_none">"全宽"</string>
+    <string name="convergence_half_width">"半宽"</string>
+
+    <!-- 详细信息 -->
+    <string name="media_detail">"详细信息"</string>
+    <string name="detail_title">"标题 : %1$s"</string>
+    <string name="detail_date_taken">"时间 : %1$s"</string>
+    <string name="detail_path">"路径 : %1$s"</string>
+    <string name="detail_filesize">"文件大小 : %1$s"</string>
+    <string name="detail_duration">"时长 : %1$s"</string>
+    <string name="detail_is3d">"是否3D： %1$s"</string>
+    <string name="yes">"是"</string>
+    <string name="not">"否"</string>
+    <string name="detail_file_count">"%1$s个视频"</string>
+    <string name="only_one_media">"当前列表仅有一个视频"</string>
+    <string name="lookfor_more_resource">"去云立方查看更多资源！"</string>
+    <string name="clear_success">"清除成功！"</string>
+    <string name="refreshing">"正在后台执行刷新,请耐心等待..."</string>
+    
+    <string name="no_connectivity" msgid="7164037617297293668">"出现网络问题。"</string>
+    <string name="please_enter_complete_information">请输入完整信息</string>
+    <string name="login_success">登录成功</string>
+    
+    <string name="login">登录</string>
+    <string name="ulifang_login">云立方帐号登录</string>
+    <string name="register">注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="account">帐号</string>
+    <string name="enter_username">请输入帐号</string>
+    <string name="enter_password">请输入密码</string>
+    <string name="enter_url">请输入播放链接</string>
+    <string name="bad_url">请输入合法的链接</string>
+    <string name="url_tips">(链接地址格式，如http://****.mkv)</string>
+    <string name="play_url">播放链接</string>
+    <string name="play">播放</string>
+
+    <!-- 继续播放对话框 -->
+    <string name="resume_playing_title" msgid="8996677350649355013">"继续播放视频"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"从 %s 开始继续播放？"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"继续播放"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"重新开始"</string>
+    <string name="prompt">"提示"</string>
+    <string name="delete" msgid="2839695998251824487">"删除"</string>
+    <string name="delete_file">"删除文件 : %1$s？"</string>
+    <string name="delete_folder">"删除文件夹: %1$s？"</string>
+    <string name="delete_fail">"无法完成操作，无权限操作4.4及以上系统外置SD卡"</string>
+    <string name="loading" msgid="7038208555304563571">"正在载入..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"无法加载"</string>
+    <string name="need_camera_permission">尊敬的用户，本应用需要开启前置摄像头和建立数据连接。\n\t\t\t1、开启前置摄像头以进行全息显示，摄像头开启过程中，只会进行人眼追踪，不会进行拍照。\n\t\t\t2、建立数据连接会产生数据流量,数据流量费用由网络运营商收取,详情咨询相关运营商。</string>
+    <string name="do_not_show">下次不再显示</string>
+    <string name="screen_capture_success">"截图保存成功，路径: %1$s"</string>
+    <string name="is_locked">屏幕已锁定，点击解锁图标可解锁</string>
+
+    <!-- 更新 -->
+    <string name="update_title">更新提示</string>
+    <string name="update_content">发现新版本,是否为您下载更新?</string>
+    <string name="downLoad_notification_title">下载</string>
+    <string name="downLoad_notification_ticker">正在下载新版本</string>
+    <string name="downLoad_notification_content1">正在下载,请稍后...</string>
+    <string name="downLoad_notification_content2">下载完成,请点击安装</string>
+    <string name="downLoad_notification_content3">下载失败,请检查网络连接</string>
+</resources>

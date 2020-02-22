@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/icn_actionbar_option"
+        android:showAsAction="always"
+        android:title="@string/delete">
+        <menu>
+            <item
+                android:id="@+id/action_confirm_delete"
+                android:title="清除播放记录"/>
+            <item
+                android:id="@+id/action_cancel_delete"
+                android:title="连续播放"/>
+        </menu>
+    </item>
+
+</menu>

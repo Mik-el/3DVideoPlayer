@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"3DVideoPlayer Mik-el"</string>
+    <string name="local">"Local"</string>
+    <string name="online">"Online"</string>
+    <string name="yunlifang">"Ulifang"</string>
+    <string name="all">"Todos los vídeos"</string>
+    <string name="history">"Historial"</string>
+    <string name="folder">"Carpeta"</string>
+    <string name="today">"Hoy"</string>
+    <string name="yesterday">"Ayer"</string>
+    <string name="the_day_before_yesterday">"Anteriormente"</string>
+    <string name="history_time">"Has estado viendo %1$s"</string>
+    <string name="duration_h_0">"%1$02dminuto%2$02dsegundo"</string>
+    <string name="duration_hn_0">"%1$dhour%2$02dminuto%3$02dsegundo"</string>
+
+    <!-- 设置 -->
+    <string name="play_continue">"%1$sreproducción contínua"</string>
+    <string name="play_remember">"%1$smemoria del reproductor"</string>
+    <string name="subtitle">"%1$smostrar subtítulos"</string>
+    <string name="clear_history">"limpiar registros"</string>
+    <string name="refresh">"Actualizar lista"</string>
+    <string name="close">"Cerrar "</string>
+    <string name="open">"Abrir "</string>
+    <string name="no_video">"Sin vídeo"</string>
+    <string name="more_video">"Más vídeos"</string>
+    <string name="chose_type">"Especificar tipo de vídeo"</string>
+    <string name="type_2d">"vídeo en 2D"</string>
+    <string name="type_3d_lr">"Vídeo 3D LR (lado a lado)"</string>
+    <string name="type_3d_ud">"Vídeo 3D UD (arriba y abajo)"</string>
+    <string name="mode_2d">"2D"</string>
+    <string name="mode_3d">"3D"</string>
+    <string name="mode_lr">"LR"</string>
+    <string name="mode_vr">"VR"</string>
+    <string name="convergence_none">"sin convergencia"</string>
+    <string name="convergence_half_width">"ancho a la mitad"</string>
+
+    <string name="no_connectivity">"Problemas de conexión..."</string>
+    <string name="please_enter_complete_information">"Por favor, introduzca toda la información"</string>
+    <string name="login_success">"Se ha iniciado sesión"</string>
+
+    <string name="login">"Inicio de sesión"</string>
+    <string name="ulifang_login">"Ulifang login"</string>
+    <string name="register">"Registrarse"</string>
+    <string name="forget_password">"He olvidado la contraseña"</string>
+    <string name="account">"Cuenta"</string>
+    <string name="enter_username">"Introduzca su cuenta"</string>
+    <string name="enter_password">"Introduzca su clave"</string>
+    <string name="enter_url">"Introduzca la dirección web (url)"</string>
+    <string name="bad_url">"Dirección incorrecta"</string>
+    <string name="url_tips">"(Formato de enlace, algo como http://****.mkv)"</string>
+    <string name="play_url">"Reproducir URL"</string>
+    <string name="play">"Reproducir"</string>
+
+    <!-- 详细信息 -->
+    <string name="media_detail">"Detalles"</string>
+    <string name="detail_title">"Título : %1$s"</string>
+    <string name="detail_date_taken">"Tiempo : %1$s"</string>
+    <string name="detail_path">"Ruta : %1$s"</string>
+    <string name="detail_filesize">"Tamaño del archivo : %1$s"</string>
+    <string name="detail_duration">"Duración : %1$s"</string>
+    <string name="detail_is3d">"Weather3D： %1$s"</string>
+    <string name="yes">"Sí"</string>
+    <string name="not">"No"</string>
+    <string name="detail_file_count">"%1$svídeos"</string>
+    <string name="only_one_media">"La lista actual solo tiene un vídeo"</string>
+    <string name="lookfor_more_resource">"A Ulifang para ver más recursos"</string>
+    <string name="clear_success">"Éxito vaciando"</string>
+    <string name="refreshing">"Actualizando en segundo plano, por favor espere..."</string>
+
+    <!-- 继续播放对话框 -->
+    <string name="resume_playing_title" msgid="8996677350649355013">"Continuar reproduciendo vídeo"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"¿Desde%s Inicio para reproducir？"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Continuar reproduciendo"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Reiniciar"</string>
+    <string name="prompt">"Solicitar"</string>
+    <string name="delete" msgid="2839695998251824487">"borrar"</string>
+    <string name="delete_file">"¿Borrar el archivo: %1$s？"</string>
+    <string name="delete_folder">"¿Borrar la carpeta: %1$s？"</string>
+    <string name="delete_fail">"No se puede completar la operación, no permitido en Android 4.4 y superiores"</string>
+    <string name="loading" msgid="7038208555304563571">"Cargando..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"No se ha podido cargar"</string>
+    <string name="need_camera_permission">"Estimado usuario, esta aplicación necesita acceder a la cámara frontal y establecer una conexión de datos.\n\t\t\t 1、habilite la cámara frontal para la imagen holográfica. La única finalidad es seguir la posición ocular del usuario para ajustar el 3D Holográfico a su posición, no se obtendrán imágenes de la cámara.\n\t\t\t2、La conexión de datos puede consumir datos de su tarifa.</string>
+    <string name="do_not_show">"No mostrar de nuevo"</string>
+    <string name="screen_capture_success">"Se ha guardado correctamente la captura，está en: %1$s"</string>
+    <string name="is_locked">The screen is locked and unlocked to unlock the icon</string>
+
+    <!-- 更新 -->
+    <string name="update_title">"Notas de esta versión"</string>
+    <string name="update_content">"Se ha encontrado una actualización ¿Quiere descargarla?"</string>
+    <string name="downLoad_notification_title">"Descarga"</string>
+    <string name="downLoad_notification_ticker">"Descarga actualización"</string>
+    <string name="downLoad_notification_content1">"Descargando actualización, por favor espere un momento"</string>
+    <string name="downLoad_notification_content2">"Actualización descargada, pulse para instalarla"</string>
+    <string name="downLoad_notification_content3">"No se ha podido descargar, compruebe la calidad de su conexión"</string>
+</resources>

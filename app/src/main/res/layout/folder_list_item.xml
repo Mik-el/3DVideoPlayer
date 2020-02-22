@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lv_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="184px"
+        android:layout_height="189px"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="14dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/folder_back" />
+
+        <ImageView
+            android:id="@+id/iv_folder"
+            android:layout_width="160px"
+            android:layout_height="140px"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="8px"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="94px"
+            android:layout_gravity="bottom"
+            android:scaleType="centerCrop"
+            android:src="@drawable/folder_front" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="23dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_folder_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#323333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_file_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:textColor="#7D7978"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

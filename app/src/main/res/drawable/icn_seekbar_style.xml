@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 背景 -->
+    <!--
+         <item
+        android:id="@+android:id/background"
+        android:drawable="@drawable/local_player_bar_grey_bg"/>
+    -->
+    <item
+        android:id="@+android:id/background"
+        android:drawable="@drawable/seekbar_background"/>
+    <!-- <item android:id="@+android:id/background">
+        <shape>
+            <solid android:color="#777270" />
+        </shape>
+    </item> -->
+    <!-- 全部能量图 -->
+
+    <item
+        android:id="@+android:id/secondaryProgress"
+        android:drawable="@drawable/seekbar_background"/>
+
+    <!--
+    <item android:id="@+android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <solid android:color="#777270" />
+            </shape>
+        </clip>
+    </item>
+    -->
+
+
+    <!-- 进和能量图 -->
+    <!-- <item android:id="@+android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#ffffff" />
+            </shape>
+        </clip>
+    </item> -->
+    <item
+        android:id="@+android:id/progress"
+        android:drawable="@drawable/seekbar_progress"/>
+
+</layer-list>

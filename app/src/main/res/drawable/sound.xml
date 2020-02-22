@@ -1,0 +1,15 @@
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/sound_popup_0"
+        android:maxLevel="6"/>
+    <item
+        android:drawable="@drawable/sound_popup_1"
+        android:maxLevel="40"/>
+    <item
+        android:drawable="@drawable/sound_popup_2"
+        android:maxLevel="80"/>
+    <item
+        android:drawable="@drawable/sound_popup_3"
+        android:maxLevel="100"/>
+</level-list>

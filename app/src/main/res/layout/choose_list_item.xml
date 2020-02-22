@@ -1,0 +1,8 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="100dp"
+    android:minHeight="40dp"
+    android:text="@string/type_2d"
+    android:textSize="15dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp" />

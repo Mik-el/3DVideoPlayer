@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Vídeo"</string>
+    <string name="local">"Local"</string>
+    <string name="online">"Online"</string>
+    <string name="yunlifang">"Ulifang"</string>
+    <string name="all">"Todos os vídeos"</string>
+    <string name="history">"Historial"</string>
+    <string name="folder">"Pasta"</string>
+    <string name="today">"Hoje"</string>
+    <string name="yesterday">"Ontem"</string>
+    <string name="the_day_before_yesterday">"Anteriormente"</string>
+    <string name="history_time">"Estive assistindo %1$s"</string>
+    <string name="duration_h_0">"%1$02dminuto%2$02dsegundo"</string>
+    <string name="duration_hn_0">"%1$dhora%2$02dminuto%3$02dsegundo"</string>
+
+    <!-- 设置 -->
+    <string name="play_continue">"%1$sreprodução contínua"</string>
+    <string name="play_remember">"%1$sleitor de memória"</string>
+    <string name="subtitle">"%1$smostrar legendas"</string>
+    <string name="clear_history">"limpar histórico"</string>
+    <string name="refresh">"Atualizar lista"</string>
+    <string name="close">"Fechar "</string>
+    <string name="open">"Abrir "</string>
+    <string name="no_video">"Sem vídeo"</string>
+    <string name="more_video">"Mais vídeos"</string>
+    <string name="chose_type">"Especificar tipo de vídeo"</string>
+    <string name="type_2d">"Vídeo em 2D"</string>
+    <string name="type_3d_lr">"Vídeo 3D LR (lado a lado; esquerda-direita)"</string>
+    <string name="type_3d_ud">"Vídeo 3D UD (acima e abaixo)"</string>
+    <string name="mode_2d">"2D"</string>
+    <string name="mode_3d">"3D"</string>
+    <string name="mode_lr">"LR (lado a lado; esquerda-direita)"</string>
+    <string name="mode_vr">"VR (realidade virtual)"</string>
+    <string name="convergence_none">"sem convergência"</string>
+    <string name="convergence_half_width">"meia largura de convergência"</string>
+
+    <string name="no_connectivity">"Problemas de ligação à rede..."</string>
+    <string name="please_enter_complete_information">"Por favor, introduza toda a informação"</string>
+    <string name="login_success">"Foi iniciada a sessão. Você está logado"</string>
+
+    <string name="login">"Início de sessão"</string>
+    <string name="ulifang_login">"Ulifang login"</string>
+    <string name="register">"Registar-se"</string>
+    <string name="forget_password">"Esqueci a senha"</string>
+    <string name="account">"Conta"</string>
+    <string name="enter_username">"Digite a sua conta"</string>
+    <string name="enter_password">"Digite a senha"</string>
+    <string name="enter_url">"Introduza o endereço web (url)"</string>
+    <string name="bad_url">"Endereço web incorrecto (url)"</string>
+    <string name="url_tips">"Formato de endereço do link, tal como http://****.mkv)"</string>
+    <string name="play_url">"Reproduzir URL"</string>
+    <string name="play">"Reproduzir"</string>
+
+    <!-- 详细信息 -->
+    <string name="media_detail">"Detalhes"</string>
+    <string name="detail_title">"Título : %1$s"</string>
+    <string name="detail_date_taken">"Tempo : %1$s"</string>
+    <string name="detail_path">"Rota : %1$s"</string>
+    <string name="detail_filesize">"Tamanho do ficheiro : %1$s"</string>
+    <string name="detail_duration">"Duração : %1$s"</string>
+    <string name="detail_is3d">"Previsão meteorológica 3D： %1$s"</string>
+    <string name="yes">"Sim"</string>
+    <string name="not">"Não"</string>
+    <string name="detail_file_count">"%1$svídeos"</string>
+    <string name="only_one_media">"A lista atual tem apenas um vídeo"</string>
+    <string name="lookfor_more_resource">"Ver mais recursos no Ulifang!"</string>
+    <string name="clear_success">"Esvaziamento com sucesso!"</string>
+    <string name="refreshing">"Atualizando em segundo plano, por favor aguarde ..."</string>
+
+    <!-- 继续播放对话框 -->
+    <string name="resume_playing_title" msgid="8996677350649355013">"Continuar a reproduzir o vídeo"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Desde%s Iniciar a reprodução？"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Continuar reproduzindo"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Reiniciar"</string>
+    <string name="prompt">"Solicitar"</string>
+    <string name="delete" msgid="2839695998251824487">"Apagar"</string>
+    <string name="delete_file">"Eliminar o ficheiro: %1$s？"</string>
+    <string name="delete_folder">"Eliminar a pasta: %1$s？"</string>
+    <string name="delete_fail">"A operação não pode ser concluída, não é permitida no Android 4.4 devido a restrições que exigem conceder permissões de leitura e gravação para o cartão SD externo"</string>
+    <string name="loading" msgid="7038208555304563571">"Carregando..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Incapaz de carregar"</string>
+    <string name="need_camera_permission">"Caro utilizador, este aplicativo precisa abrir a câmera frontal e estabelecer uma conexão de dados.\n\t\t\t 1、Abra a câmera frontal para exibição holográfica. Durante o procedimento de abertura, a câmera fará apenas o rastreamento do olho humano, em vez de tirar fotos.\n\t\t\t2、 O estabelecimento da conexão de dados consumirá o fluxo de informações, o que produzirá uma taxa extra cobrada pela operadora e você poderá consultar os operadores relevantes para obter mais detalhes."</string>
+    <string name="do_not_show">"Não avisar novamente"</string>
+    <string name="screen_capture_success">"A captura de tela foi gravada corretamente, está em: %1$s"</string>
+    <string name="is_locked">"Controles bloqueados, pressione desbloquear para habilitar novamente"</string>
+
+    <!-- 更新 -->
+    <string name="update_title">"Notas de Atualização"</string>
+    <string name="update_content">"Foi encontrada uma atualização. Deseja descarregá-la?"</string>
+    <string name="downLoad_notification_title">"Descarregar"</string>
+    <string name="downLoad_notification_ticker">"Descarregar a atualização"</string>
+    <string name="downLoad_notification_content1">"Descarregando a atualização..., por favor aguarde um momento"</string>
+    <string name="downLoad_notification_content2">"Atualização baixada, clique para instalar por favor!"</string>
+    <string name="downLoad_notification_content3">"Não foi possível descarregar, verifique a conexão de rede"</string>
+</resources>

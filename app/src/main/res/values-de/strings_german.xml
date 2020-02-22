@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3DVideoPlayer Mik-el</string>
+    <string name="local">Auf Gerät</string>
+    <string name="online">Online</string>
+    <string name="yunlifang">Ulifang</string>
+    <string name="all">Alle Videos</string>
+    <string name="history">Verlauf</string>
+    <string name="folder">Ordner</string>
+    <string name="today">"Heute"</string>
+    <string name="yesterday">"Gestern"</string>
+    <string name="the_day_before_yesterday">"Früher"</string>
+    <string name="history_time">"Gesehene %1$s"</string>
+    <string name="duration_h_0">"%1$02dMinute%2$02dSekunde"</string>
+    <string name="duration_hn_0">"%1$dStunde%2$02dMinute%3$02dSekunde"</string>
+
+    <!-- 设置 -->
+    <string name="play_continue">"%1$skontinuierliche Wiedergabe"</string>
+    <string name="play_remember">"%1$sWiedergabe aus Speicher"</string>
+    <string name="subtitle">"%1$sUntertitel anzeigen"</string>
+    <string name="clear_history">"Aufnahmen löschen anzeigen"</string>
+    <string name="refresh">"Liste aktualisieren"</string>
+    <string name="close">"Schließen"</string>
+    <string name="open">"Öffnen"</string>
+    <string name="no_video">"Ohne Video"</string>
+    <string name="more_video">"Weitere Videos"</string>
+    <string name="chose_type">"Typ des Videos einstellen"</string>
+    <string name="type_2d">"2D Video"</string>
+    <string name="type_3d_lr">"3D LR Video (links und rechts)"</string>
+    <string name="type_3d_ud">"3D UD Video (oben und unten)"</string>
+    <string name="mode_2d">"2D"</string>
+    <string name="mode_3d">"3D"</string>
+    <string name="mode_lr">"LR"</string>
+    <string name="mode_vr">"VR"</string>
+    <string name="convergence_none">"ohne Konvergenz"</string>
+    <string name="convergence_half_width">"halbe Breite"</string>
+
+    <string name="no_connectivity">"Netzwerkproblem."</string>
+    <string name="please_enter_complete_information">"Bitte alle Werte eingeben"</string>
+    <string name="login_success">"Login erfolgreich"</string>
+
+    <string name="login">"Login"</string>
+    <string name="ulifang_login">"Ulifang Login"</string>
+    <string name="register">"Registrieren"</string>
+    <string name="forget_password">"Passwort vergessen"</string>
+    <string name="account">"Konto"</string>
+    <string name="enter_username">"Konto eingeben"</string>
+    <string name="enter_password">"Passwort eingeben"</string>
+    <string name="enter_url">"URL eingeben"</string>
+    <string name="bad_url">"Falsche URL"</string>
+    <string name="url_tips">"(Typ der Adresse, wie z.B. http://****.mkv)"</string>
+    <string name="play_url">"URL abspielen"</string>
+    <string name="play">"Wiedergabe"</string>
+
+    <!-- 详细信息 -->
+    <string name="media_detail">"Details"</string>
+    <string name="detail_title">"Titel : %1$s"</string>
+    <string name="detail_date_taken">"Zeit : %1$s"</string>
+    <string name="detail_path">"Pfad : %1$s"</string>
+    <string name="detail_filesize">"Dateigröße : %1$s"</string>
+    <string name="detail_duration">"Dauer : %1$s"</string>
+    <string name="detail_is3d">"Wetter3D： %1$s"</string>
+    <string name="yes">"Ja"</string>
+    <string name="not">"Nein"</string>
+    <string name="detail_file_count">"%1$sVideos"</string>
+    <string name="only_one_media">"Aktuelle Liste und nur ein Video"</string>
+    <string name="lookfor_more_resource">"Bei Ulifang mehr finden!"</string>
+    <string name="clear_success">"Erfolgreich bereinigt！"</string>
+    <string name="refreshing">"Aktualisierung im Hintergrund, bitte Geduld..."</string>
+
+    <!-- 继续播放对话框 -->
+    <string name="resume_playing_title" msgid="8996677350649355013">"Wiedergabe fortsetzen"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Ab%s abspielen？"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Wiedergabe fortsetzen"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Neustart"</string>
+    <string name="prompt">"Eingabeaufforderung"</string>
+    <string name="delete" msgid="2839695998251824487">"löschen"</string>
+    <string name="delete_file">"Diese Datei löschen: %1$s？"</string>
+    <string name="delete_folder">"Diesen Ordner löschen: %1$s？"</string>
+    <string name="delete_fail">"Gescheitert, kein Zugriff auf externe SDcard unter Android 4.4 und höher"</string>
+    <string name="loading" msgid="7038208555304563571">"Laden..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Laden gescheitert"</string>
+    <string name="need_camera_permission">"Diese Anwendung benötigt Zugriff auf Frontkamera und Datenverbindung.\n\t\t\t 1、Aktiviere Frontkamera für Holografie. Die Kamera erfasst lediglich die Augenbewegung.\n\t\t\t2、Die Datenverbindung kann Kosten bei ihrem Mobilfunkanbieter verursachen, falls Sie einen Datentarif ohne Flatrate verwenden."</string>
+    <string name="do_not_show">"Nicht mehr nachfragen"</string>
+    <string name="screen_capture_success">"Screenshot speichern，unter: %1$s"</string>
+    <string name="is_locked">"Schaltflächen sind deaktiviert. Aktivieren für Zugriff"</string>
+
+    <!-- 更新 -->
+    <string name="update_title">"Versionshinweise"</string>
+    <string name="update_content">"Neue Version gefunden. Wollen Sie aktualisieren?"</string>
+    <string name="downLoad_notification_title">"Download"</string>
+    <string name="downLoad_notification_ticker">"Neue Version herunterladen"</string>
+    <string name="downLoad_notification_content1">"Neue Version wird geladen...,bitte warten"</string>
+    <string name="downLoad_notification_content2">"Download beendet, klicken um Installation zu starten"</string>
+    <string name="downLoad_notification_content3">"Download fehlgeschlagen, bitte prüfen Sie Ihre Internetverbindung"</string>
+</resources>

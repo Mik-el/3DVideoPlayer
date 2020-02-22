@@ -1,0 +1,61 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.    -->
+    <!-- <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light"> -->
+    <style name="AppBaseTheme">
+
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <!-- actionbar tab的文本样式 -->
+    <style name="ActionBarTabTextStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">@drawable/tabs_text_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <!-- 主界面样式 -->
+    <style name="main_activity_style" parent="AppTheme">
+        <!-- <item name="android:actionBarSize">50dp</item> -->
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/ActionBarTabTextStyle</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarTabBarStyle">@style/ActionBarTabBarStyle</item>
+    </style>
+
+    <!-- actionbar的样式 -->
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:backgroundStacked">#FFFFFF</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="ActionBarTabStyle" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_indicator_holo</item>
+        <item name="android:divider">@drawable/division</item>
+    </style>
+
+    <!-- actionbar tab条样式 -->
+    <style name="ActionBarTabBarStyle">
+        <item name="android:divider">@drawable/division</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">16dp</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <!-- 橙色主题色 -->
+    <color name="main_color">#ff6735</color>
+</resources>

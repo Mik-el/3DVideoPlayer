@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.estar.video.ui.GridViewWithHeaderAndFooter
+        android:id="@+id/gv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="162dp"
+        android:horizontalSpacing="0dp"
+        android:numColumns="auto_fit"
+        android:padding="8dp"
+        android:paddingTop="14dp"
+        android:verticalSpacing="0dp" 
+        android:paddingRight="10dp"
+        android:scrollbars="none">
+    </com.estar.video.ui.GridViewWithHeaderAndFooter>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:id="@+id/loading_bar"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_video"
+        android:textColor="#7D7978"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

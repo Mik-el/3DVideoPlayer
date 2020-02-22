@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3DVideoPlayer Mik-el</string>
+    <string name="local">Locale</string>
+    <string name="online">Online</string>
+    <string name="yunlifang">Ulifang</string>
+    <string name="all">Tutti i Video</string>
+    <string name="history">Cronologia</string>
+    <string name="folder">Cartella</string>
+    <string name="today">"Oggi"</string>
+    <string name="yesterday">"Ieri"</string>
+    <string name="the_day_before_yesterday">"L'altro ieri"</string>
+    <string name="history_time">"Hai guardato %1$s"</string>
+    <string name="duration_h_0">"%1$02dminuti%2$02dsecondi"</string>
+    <string name="duration_hn_0">"%1$dore%2$02dminuti%3$02dsecondi"</string>
+
+    <!-- 设置 -->
+    <string name="play_continue">"%1$sriproduzione continua"</string>
+    <string name="play_remember">"%1$smemoria del player"</string>
+    <string name="subtitle">"%1$mostra sottotitoli"</string>
+    <string name="clear_history">"svuota cronologia"</string>
+    <string name="refresh">"Aggiorna lista"</string>
+    <string name="close">"Chiudi "</string>
+    <string name="open">"Apri "</string>
+    <string name="no_video">"Nessun video"</string>
+    <string name="more_video">"Più video"</string>
+    <string name="chose_type">"Scegli il tipo di video"</string>
+    <string name="type_2d">"2D video"</string>
+    <string name="type_3d_lr">"3D LR video (destra e sinistra)"</string>
+    <string name="type_3d_ud">"3D UD video (sopra e sotto)"</string>
+    <string name="mode_2d">"2D"</string>
+    <string name="mode_3d">"3D"</string>
+    <string name="mode_lr">"LR"</string>
+    <string name="mode_vr">"VR"</string>
+    <string name="convergence_none">"nessuna convergenza"</string>
+    <string name="convergence_half_width">"a metà"</string>
+
+    <string name="no_connectivity">"Problemi di connessione."</string>
+    <string name="please_enter_complete_information">"Inserisci informazioni complete per favore"</string>
+    <string name="login_success">"Login effettuato"</string>
+
+    <string name="login">"Login"</string>
+    <string name="ulifang_login">"Ulifang login"</string>
+    <string name="register">"Registrazione"</string>
+    <string name="forget_password">"Password dimenticata"</string>
+    <string name="account">"Account"</string>
+    <string name="enter_username">"Inserisci account"</string>
+    <string name="enter_password">"Inserisci password"</string>
+    <string name="enter_url">"Inserisci url"</string>
+    <string name="bad_url">"url non valido"</string>
+    <string name="url_tips">"(formato dell' indirizzo/link, come http://****.mkv)"</string>
+    <string name="play_url">"Riproduci URL"</string>
+    <string name="play">"Play"</string>
+
+    <!-- 详细信息 -->
+    <string name="media_detail">"Dettagli"</string>
+    <string name="detail_title">"Titolo : %1$s"</string>
+    <string name="detail_date_taken">"Tempo : %1$s"</string>
+    <string name="detail_path">"Percorso : %1$s"</string>
+    <string name="detail_filesize">"Dimensione del file : %1$s"</string>
+    <string name="detail_duration">"Durata : %1$s"</string>
+    <string name="detail_is3d">"Meteo3D： %1$s"</string>
+    <string name="yes">"Si"</string>
+    <string name="not">"No"</string>
+    <string name="detail_file_count">"%1$svideo"</string>
+    <string name="only_one_media">"Solo un video nella lista corrente"</string>
+    <string name="lookfor_more_resource">"Vai ad Ulifang per vedere più risorse!"</string>
+    <string name="clear_success">"Cancellazione effettuata!"</string>
+    <string name="refreshing">"Aggiornamento background, attendere prego..."</string>
+
+    <!-- 继续播放对话框 -->
+    <string name="resume_playing_title" msgid="8996677350649355013">"Continua a riprodurre il video"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Inizia a riprodurre da%s ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Continua a riprodurre"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Riavvia"</string>
+    <string name="prompt">"Prompt"</string>
+    <string name="delete" msgid="2839695998251824487">"cancella"</string>
+    <string name="delete_file">"Cancellare il file: %1$s？"</string>
+    <string name="delete_folder">"Cancellare la cartella: %1$s？"</string>
+    <string name="delete_fail">"Impossibile completare l'operazione, permesso di usare SDcard esterna non soddisfatto su Android 4.4 o superiore"</string>
+    <string name="loading" msgid="7038208555304563571">"Caricamento..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Impossibile caricare"</string>
+    <string name="need_camera_permission">"Caro utente, questa applicazione deve avviare la camera frontale e stabilire una connessione dati.\n\t\t\t 1、Apri la camera fontale per il display olografico. Durante l' apertura, la camera traccerà solo l' occhio umano anzichè scattare foto.\n\t\t\t2、Stabilire una connessione dati consumerà banda, che provocherà costi extra da parte dell' operatore telefonico. Puoi consultare il tuo operatore per saperne di più."</string>
+    <string name="do_not_show">"Non mostrare di nuovo"</string>
+    <string name="screen_capture_success">"Salva lo screenshot catturato，percorso: %1$s"</string>
+    <string name="is_locked">"I controlli sono bloccati, sbloccali per abilitarli di nuovo"</string>
+
+    <!-- 更新 -->
+    <string name="update_title">"Dettagli aggionrnamento"</string>
+    <string name="update_content">"Trovata nuova versione. Vuoi aggiornare?"</string>
+    <string name="downLoad_notification_title">"Scarica"</string>
+    <string name="downLoad_notification_ticker">"Scarica nuova versione"</string>
+    <string name="downLoad_notification_content1">"Scaricando la nuova versione..., aspetta un attimo"</string>
+    <string name="downLoad_notification_content2">"Download finito, clicca per installare"</string>
+    <string name="downLoad_notification_content3">"Download fallito, controlla la connessione internet per favore"</string>
+</resources>
+    <!-- Italian translation by Mik-el -->

@@ -91,7 +91,7 @@ The download of this app is free. ([link][apkv2] - use slower download) but if y
    [takeexda]: <http://bit.ly/2tL9Mvh3>
    [takee4pda]: <http://bit.ly/2Dst1z0>
    [takeeroms]: <http://bit.ly/2VmNQpD>
-   [paypal]: <>
+   [paypal]: <https://paypal.me/donationMikel>
    [3dphones]: <https://en.wikipedia.org/wiki/List_of_3D-enabled_mobile_phones>
    [s3Ddevices]: <https://forum.xda-developers.com/showpost.php?p=79098051&postcount=1399>
    [yuri]: <https://forum.xda-developers.com/member.php?u=7147494>
@@ -99,5 +99,5 @@ The download of this app is free. ([link][apkv2] - use slower download) but if y
    [kano3d]: <http://www.tridimensional.info>
    [patent]: <http://bit.ly/2LvEd4r>
    [apkv1]: <http://bit.ly/Mk3d001>
-   [apkv2]: <http://www.filefactory.com/file/257xh8gpewhz/Mik-el%203DVideoPlayer%20v2.apk>
+   [apkv2]: <https://bit.ly/3gpfaKJ>
    [cam]: <https://cam.tv/mik_el_tech>

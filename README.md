@@ -68,6 +68,7 @@ The download of this app is free. ([link][apkv2] - use slower download) but if y
 
 |  |  |
 | ------ | ------ |
+| Telegram Channel | [link][tg] |
 | XDA Forum | [link][xda] |
 | Tech Blog | [link][cam] |
 | Instagram | [link][insta] |
@@ -100,4 +101,5 @@ The download of this app is free. ([link][apkv2] - use slower download) but if y
    [patent]: <http://bit.ly/2LvEd4r>
    [apkv1]: <http://bit.ly/Mk3d001>
    [apkv2]: <https://bit.ly/3gpfaKJ>
-   [cam]: <https://cam.tv/mik_el_tech>
+   [cam]: <http://bit.ly/2mffw0h>
+   [tg]:<https://bit.ly/Mikel_TG>

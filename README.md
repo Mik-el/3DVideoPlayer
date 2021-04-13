@@ -28,7 +28,8 @@ This app needs 3d libraries to work. Unfortunately some custom Roms don't includ
 
 
 # Stock and custom ROMs for Takee 1:
-[here][takeeroms] 
+* six ROMs [here][takeeroms]
+* My latest Android 7.1.2 ROM [here][rom7]
 
 # Get involved :
  - We talk about this app on the international [XDA Forum][takeexda] community 
@@ -99,6 +100,7 @@ The download of this app is free. ([link][apkv2] - use slower download) but if y
    [io2345]: <https://forum.xda-developers.com/member.php?u=6026343>
    [kano3d]: <http://www.tridimensional.info>
    [patent]: <http://bit.ly/2LvEd4r>
+   [rom7]:<https://bit.ly/2PRS3gV>
    [apkv1]: <http://bit.ly/Mk3d001>
    [apkv2]: <https://bit.ly/3gpfaKJ>
    [cam]: <http://bit.ly/2mffw0h>
